@@ -7,11 +7,11 @@
     </head>
     <body>
         <script>
-        $(document).ready(function(){
-            $("p").click(function(){
-                $(this).hide();
+            $(document).ready(function(){
+                $("*").click(function(e) {
+                    $(e.target).hide();
+                });
             });
-        });
         </script>
         <div>RADAHSWAMI</div>
         <p>Click me to hide </p>
