@@ -4,16 +4,22 @@
         <title>JQuery Code Base</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link href="calculator.css" rel="stylesheet" type="text/css">
+        <script src="calculator.js"></script>
     </head>
     <body>
         <script>
             $(document).ready(function(){
-                $("*").click(function(e) {
-                    $(e.target).hide();
+                $("#calculator").load("calculator.html", function(){
+                    initCalculator();
                 });
+                console.log("calulcator UI loaded");
             });
         </script>
-        <div>RADAHSWAMI Nam jo gaye</div>
-        <p>Click me to hide </p>
+        <!--<div>RADAHSWAMI Nam jo gaye</div>
+        <p>Click me to hide </p>-->
+        <div id="calculator"> 
+            This is where calculator is supposed to show
+        </div>
     </body>
 </html>
