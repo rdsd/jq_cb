@@ -6,7 +6,7 @@
 $(document).ready(function(){
     console.log("radhaswami");
     initCalculator();
-    $(".button1").click(function(){
+    $(".number-button").click(function(){
         $("#display").text($(this).text());
         console.log("radhaswami");
        
@@ -26,12 +26,12 @@ function initCalculator(){
     $("#display").data("resultDisplayed", false);  
     
     //when number button is clicked
-    $(".button1").click(function(){
+    $(".number-button").click(function(){
         //console.log("number clicked" + $(this).text());
         processNumberButtonClick($(this).text());
     });   
     //when clear button is clicked
-    $("#button-c").click(function(){
+    $("#clear-button").click(function(){
         clearCalculator();
     });   
     //when function button is clicked

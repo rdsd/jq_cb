@@ -23,11 +23,11 @@ root {
 .button_row{
     display:block;
     margin:5px 0;
-    border:1px solid red;
+    border:0px solid red;
     clear: both;
     overflow: auto;
 }
-.c_button{
+.cal-button{
     /*display: inline;*/
     float:left;
     border:1px solid blue;
@@ -38,17 +38,12 @@ root {
     vertical-align: middle;
     display: table;
 }
-.button1_one{
-    vertical-align: middle;
-    margin-top: 10px;
-    border:1px solid pink;
-}
-.button1{
+.number-button{
     vertical-align: middle;
     border: 0px solid pink;
     margin-top: 10px;
 }
-#button-c{
+#clear-button{
     vertical-align: middle;
     border: 0px solid pink;
     margin-top: 10px;
@@ -63,41 +58,3 @@ root {
     border: 0px solid pink;
     margin-top: 10px;
 }
-#button-add{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#button3{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#button4{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#button5{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#button6{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#button7{
-    vertical-align: middle;
-    border: 1px solid pink;
-    margin-top: 10px;
-}
-#c_button1{
-       border:1px solid blue;
-    height:40px;
-    width:40px;
-    margin:5px;
-
-}
-
