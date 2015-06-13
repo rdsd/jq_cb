@@ -1,0 +1,103 @@
+root { 
+    display: block;
+}
+
+#c_container{
+    background-color: lightblue;
+    border:1px solid blueviolet;
+    width:210px;
+    height:300px;
+}
+#c_display{
+    margin:5px;
+    width:200px;
+    border: 1px solid green;
+}
+#display{
+    margin: 5px 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    width:195px;
+    text-align: right;
+}
+.button_row{
+    display:block;
+    margin:5px 0;
+    border:1px solid red;
+    clear: both;
+    overflow: auto;
+}
+.c_button{
+    /*display: inline;*/
+    float:left;
+    border:1px solid blue;
+    height:40px;
+    width:40px;
+    margin:5px;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+}
+.button1_one{
+    vertical-align: middle;
+    margin-top: 10px;
+    border:1px solid pink;
+}
+.button1{
+    vertical-align: middle;
+    border: 0px solid pink;
+    margin-top: 10px;
+}
+#button-c{
+    vertical-align: middle;
+    border: 0px solid pink;
+    margin-top: 10px;
+}
+.function-button{
+    vertical-align: middle;
+    border: 0px solid pink;
+    margin-top: 10px;
+}
+.equals-button{
+    vertical-align: middle;
+    border: 0px solid pink;
+    margin-top: 10px;
+}
+#button-add{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#button3{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#button4{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#button5{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#button6{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#button7{
+    vertical-align: middle;
+    border: 1px solid pink;
+    margin-top: 10px;
+}
+#c_button1{
+       border:1px solid blue;
+    height:40px;
+    width:40px;
+    margin:5px;
+
+}
+
