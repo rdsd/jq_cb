@@ -65,6 +65,7 @@ function processNumberButtonClick(number)
     else if($("#display").data("resultDisplayed") == true)
     {
         console.log("number clicked after resultDisplayed: " + number);
+        clearCalculator();
         $("#display").val(number);
         $("#display").data("firstOperand",number );
         $("#display").data("clearedState", false);
@@ -171,7 +172,14 @@ function  operateNumbers(num1, num2, operation)
 
 function processEqualsButtonClick()
 {
-    console.log("inside processEqualButtonClick....");    
+    console.log("inside processEqualButtonClick....");  
+    
+    //if equals pressed mistakenly after equals button, return with same display value
+    if($("#display").data("resultDisplayed") == true)
+        {
+            return;
+        }
+    
     $("#display").data("secondOperandLocked", true);
     
     var func = $("#display").data("function");
